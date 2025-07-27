@@ -24,9 +24,10 @@ bibtex_bibfiles:
 
 # GitHub 倉庫連結（用於部署）
 repository:
-  url: https://github.com/brianwu989/mynewbooktest2  # ✅ 改為你的實際倉庫
-  path_to_book: .                                     # ✅ 改為「.」表示根目錄
-  branch: gh-pages                                    # ✅ 指定 GitHub Pages 部署分支
+  url: https://github.com/brianwu989/mynewbooktest2
+  path_to_book: docs
+  branch: main
+
 
 # 顯示 GitHub 按鈕
 html:
