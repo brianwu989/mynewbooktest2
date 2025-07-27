@@ -1,0 +1,37 @@
+#######################################################################################
+# Jupyter Book Configuration
+# 官方文件：https://jupyterbook.org/customize/config.html
+#######################################################################################
+
+# 書籍基本資訊
+title       : 城市文資安養專書         # 書名
+author      : AA Gumel                # 作者名稱
+copyright   : "2025"
+logo        : logo.png                # logo 圖檔放在同目錄下
+
+# Notebook 執行設定
+execute:
+  execute_notebooks: force
+
+# PDF 輸出用 LaTeX 設定
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# 引用文獻
+bibtex_bibfiles:
+  - references.bib
+
+# GitHub 倉庫連結（用於部署）
+repository:
+  url: https://github.com/brianwu989/mynewbooktest2  # ✅ 改為你的實際倉庫
+  path_to_book: .                                     # ✅ 改為「.」表示根目錄
+  branch: gh-pages                                    # ✅ 指定 GitHub Pages 部署分支
+
+# 顯示 GitHub 按鈕
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+# 語系設定（非必填，但建議加上）
+language: zh-TW
