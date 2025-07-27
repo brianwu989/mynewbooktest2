@@ -4,6 +4,8 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+  - file: healthy-city-model
+  - file: urban-heritage-role
+  - file: aging-healthcare-cases
+  - file: policy-summary
+  - file: references
